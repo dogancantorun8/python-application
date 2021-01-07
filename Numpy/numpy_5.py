@@ -1,4 +1,4 @@
-#numpy dizieri üzerinde vektörel işlemler  :işleme girerken karşılıklı elemanlar işleme giriyor
+#numpy dizileri üzerinde vektörel işlemler  :işleme girerken karşılıklı elemanlar işleme giriyor
 #her elemana aynı skaler işlemleri yap ak istersem np array ierisinde işlem yaptırmalıyım
 
 #numpy mantığı:veri setini al sütunlar feature olsun satırlar item olsun bu şekilde analiz et. ####

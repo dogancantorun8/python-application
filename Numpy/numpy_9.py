@@ -17,3 +17,4 @@ b[:, 8] = np.char.strip(a[:, 8], '"').astype('float32')
 print(b)
 
 
+

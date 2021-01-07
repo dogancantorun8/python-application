@@ -5,9 +5,9 @@
 
 import numpy as np
 a = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-print(a[0,2])
+print("3 değerine erişmek istersem=",a[0,2])
 print(a[1,2])
-print(a[1]) #1.satırın hepsine erişiyorum
+print("1.satırın hepsine erişebiliyorum",a[1]) #1.satırın hepsine erişiyorum
 
 #ndarray nesneleri mutable değiştirilebilir nesnelerdir
 a[1,2]=10
@@ -34,7 +34,7 @@ print(b)
 
 #herhangi birer indisteki elemanlara erişmek istersem burada çoklu indeksleme yaptım
 a = np.array([3, 6, 9, 3, 7, 10, 9, 8])
-b = [1, 6, 4] #a ndarrayde istediğim elemanı b icinde belirtiyorum
+b = [1, 6, 4] #a ndarrayde istediğim elemanın indisini  b icinde belirtiyorum
 c = a[b] #belirttiğim elemanları c ndarraye atıyorum
 print(c)
 print(type(c))
