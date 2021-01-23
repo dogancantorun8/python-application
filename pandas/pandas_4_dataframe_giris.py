@@ -7,7 +7,7 @@ Created on Sat Jan  9 20:42:21 2021
 
 
 #Dataframe:her sütunu farklı dtypedan oluşan yapılardır. Matrissel bir yapıdır ve sütunların her biri series nesnesidir 
-#dataframeden genelde dosyalardan okunur. 
+#dataframeler genelde dosyalardan okunur. 
 #ndarrayden,iterable nesneden veya herhangi bir datframeden okunup yeni bir dataframe oluşturulabilir 
 
 #1)Liste listesinden dataframe oluşturma
@@ -86,7 +86,7 @@ df['Z'] = c
 print(df)
 
 ################################################################################################################
-#bir dataframe in belirli bir sutununu series olarak alabilirim ve series methodlarını kullanabilirim
+#Bir dataframe in belirli bir sutununu series olarak alabilirim ve series methodlarını kullanabilirim
 import pandas as pd
 import numpy as np
 df = pd.DataFrame([['Ali', 20], ['Veli', 30], ['Selami', 40]], columns=['Adı Soyadı', 'No'], index= ['A', 'B', 'C'])
