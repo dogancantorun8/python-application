@@ -1,0 +1,7 @@
+#qt designerda bir dosya oluşturup save ederseniz XML dosyası oluşur. 
+#QT designer ile oluşturulmuş ".ui" olan kodu alıp onu python dosyasına çevireceğiz ki istediğimiz işlemleri  yapabilelim. 
+#pyuic5 -o  <hedef python dosyası> <hedef ui dosyası> =>>pyuic5 -o qtdesign.py qtdesigner_giris.ui  
+#arayüzden herhangi bir değişiklikte bir üstteki dönüşümü tekrardan yapmalıyız
+ 
+#sonra başka bir python dosyası yaratıyoruz 
+#UiMaindowdan nesne yaratacacam ardından sonra setupUi şeklinde metodu çağırıp ona seldi veriyorum 
