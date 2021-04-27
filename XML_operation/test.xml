@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<student no="123">
+	<class>1b</class>
+	<test>100</test>
+	<grade>98</grade>
+	<class>2c</class>
+</student>
